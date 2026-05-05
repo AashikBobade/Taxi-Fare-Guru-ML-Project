@@ -51,6 +51,24 @@ The dataset consists of three main files:
 
 ---
 
+## 📦 Data Access
+
+The dataset is already included in this repository for convenience.
+
+Alternatively, you can download it directly from Kaggle using `kagglehub`:
+
+```python
+import kagglehub
+
+# Download latest version
+path = kagglehub.competition_download('taxi-fare-guru-total-amount-prediction-challenge')
+
+print("Path to competition files:", path)
+```
+
+
+---
+
 ## 🔍 Workflow
 
 ### 1. Exploratory Data Analysis (EDA)
@@ -131,3 +149,5 @@ Open the notebook:
 * Open-source ML libraries for tools and frameworks
 
 ---
+
+
