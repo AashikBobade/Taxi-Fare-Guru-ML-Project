@@ -136,7 +136,6 @@ Open the notebook:
 
 ## 🔮 Future Improvements
 
-* Hyperparameter tuning using GridSearchCV / Optuna
 * Deployment as a web application
 * Incorporating geospatial features
 * Using deep learning models for further improvement
